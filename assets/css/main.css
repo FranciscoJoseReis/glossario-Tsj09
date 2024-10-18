@@ -748,8 +748,9 @@ section,
   color: var(--default-color);
   background-color: var(--background-color);
   padding: 60px 0;
-  scroll-margin-top: 80px;
+  scroll-margin-top: 40px;
   overflow: clip;
+  min-height: 100vh;
 }
 
 @media (max-width: 1199px) {
@@ -769,7 +770,7 @@ section,
 }
 
 .section-title h2 {
-  font-size: 14px;
+  font-size: 25px;
   font-weight: 500;
   padding: 0;
   line-height: 1px;
@@ -1713,6 +1714,3 @@ section,
 /*--------------------------------------------------------------
 # Starter Section Section
 --------------------------------------------------------------*/
-.starter-section {
-  /* Add your styles here */
-}
